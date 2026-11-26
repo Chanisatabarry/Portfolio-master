@@ -30,11 +30,17 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight />I enjoy playing badminton in my free time. I may
+              not be a professional player,
+              <span className="purple">
+                {" "}
+                but I never give up and I never lose!{" "}
+              </span>
             </li>
 
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> I love watching movies, especially
+              <span className="purple"> Marvel movies and horror films. </span>
             </li>
           </ul>
         </blockquote>

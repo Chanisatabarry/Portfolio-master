@@ -2,10 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/b.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 
 function Home2() {
   return (
@@ -17,27 +14,42 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with web and I have at least learnt
-              something
+              I am passionate about creating websites, developing digital
+              platforms, and building user-friendly applications.
               <br />
-              <br />I am fluent in classics like
+              <br />I enjoy exploring new
               <i>
-                <b className="purple"> Flutter, Dart ,HTML. </b>
+                <b className="purple"> technologies, solving problems, </b>
+                and identifying and fixing bugs to improve application
+                performance and user experience.
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My technical interests include{" "}
+              <b className="purple">Flutter, Dart, HTML,Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  modern JavaScript libraries and frameworks such as React.js
+                  and Next.js.
                 </b>
               </i>
-              &nbsp; like
+              <br />
+              <br />
+              Front-End DI am particularly interested in evelopment, while also
+              eager to expand my knowledge of
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> Back-End Development </b>
+                and
+                <b className="purple"> full-stack technologies. </b>I enjoy
+                learning new tools, adapting to emerging technologies, and
+                turning ideas into practical digital solutions.
               </i>
+              <br />
+              {/* &nbsp; like */}
+              <br />I believe that continuous learning, problem-solving, and
+              attention to detail are essential qualities for becoming a great
+              developer.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -63,7 +75,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-             
+
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/barrybbear_?igsh=MXVwMmZyaXB3MGx3Mw=="
