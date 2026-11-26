@@ -8,25 +8,31 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Chanisata Muangsub </span>
-           born in <span className="purple"> 2002.</span>
+            Hi Everyone, I am{" "}
+            <span className="purple">Chanisata Muangsub </span>
+            born in <span className="purple"> 2002.</span>
             <br />
-            I am currently a 4th year student
+            I graduated from King Mongkut’s University of Technology North
+            Bangkok (KMUTNB) with a Bachelor of Engineering in Electronics
+            Engineering Technology, majoring in Computer Engineering Technology.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            I am interested and passionate about <span className="purple">web application development,</span>
+            My academic background includes Mobile and Cloud Computing,
+            Artificial Intelligence, Software Engineering, and Computer System
+            Development and I have gained internship experience in the field of{" "}
+            <span className="purple">web development,</span>
             <br />
-            including using Flutter to create beautiful applications that meet the needs of users.
-            <br />
-            I also enjoy <span className="purple">earning new technology to apply in various projects. </span>
-            Please take care of yourself! 😊
+            including using Flutter to create beautiful applications that meet
+            the needs of users.
+            <br />I also enjoy{" "}
+            <span className="purple">
+              earning new technology to apply in various projects.{" "}
+            </span>
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
-            
+
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
