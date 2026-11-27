@@ -51,12 +51,19 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={project}
-              isBlog={false}
-              title="GRADUATION PROJECT"
-              description="Developed a Flutter-based mobile application that compares supermarket product prices, recommends budget-friendly shopping options, and provides store locations and navigation routes to help users make cost-effective purchasing decisions."
-            />
+            <a
+              href="https://utcc-edu.my.canva.site/portfolio-barry"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <ProjectCard
+                imgPath={project}
+                isBlog={false}
+                title="GRADUATION PROJECT"
+                description="Developed a Flutter-based mobile application that compares supermarket product prices, recommends budget-friendly shopping options, and provides store locations and navigation routes to help users make cost-effective purchasing decisions."
+              />
+            </a>
           </Col>
         </Row>
       </Container>
